@@ -65,9 +65,11 @@ I'm a Software Engineering undergraduate at **Nanjing University** (Class of 202
 
 ## Contact
 
-<a href="mailto:231250082@smail.nju.edu.cn"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-still.svg" />
-  <img src="./assets/signal.svg" width="900" alt="Open a channel with Taijie Wang. Email for research or engineering conversations." />
-</picture></a>
+<a href="mailto:231250082@smail.nju.edu.cn">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-still.svg" />
+    <img src="./assets/signal.svg" width="900" alt="Open a channel with Taijie Wang. Email for research or engineering conversations." />
+  </picture>
+</a>
 
 [Email](mailto:231250082@smail.nju.edu.cn) · [Personal site](https://wanglevy9.github.io/) · [Photo journal](https://wanglevy9.github.io/#journal-title) · [Observatory](https://wanglevy9.github.io/observatory.html)
