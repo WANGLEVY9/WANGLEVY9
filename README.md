@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://wanglevy9.github.io/observatory.html"><strong>✧ Enter the observatory</strong></a>
+  &nbsp;·&nbsp; <a href="https://wanglevy9.github.io/observatory.html#toolbox">Toolbox</a>
   &nbsp;·&nbsp; <a href="https://wanglevy9.github.io/">Portfolio</a>
   &nbsp;·&nbsp; <a href="https://github.com/WANGLEVY9?tab=repositories">Repositories</a>
   &nbsp;·&nbsp; <a href="mailto:231250082@smail.nju.edu.cn">Email</a>
@@ -15,6 +16,17 @@
 # Taijie Wang
 
 I'm a Software Engineering undergraduate at **Nanjing University** (Class of 2027). I work on AI-assisted software testing, human–AI collaboration in GUI workflows, and systems that make it easier to trace how a failure happened.
+
+## Toolbox
+
+<a href="https://wanglevy9.github.io/observatory.html#toolbox">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/toolbox-still.svg" />
+    <img src="./assets/toolbox.svg" alt="Beadwork toolbox with Python, TypeScript, Docker, Redis, Playwright, GitHub, Linux, and macOS. Open the interactive board." width="900" />
+  </picture>
+</a>
+
+[**Open the interactive toolbox →**](https://wanglevy9.github.io/observatory.html#toolbox) · Flip, swap, and shuffle 16 technology tiles.
 
 ## Research
 
@@ -52,9 +64,7 @@ I worked on federated-learning-based cybersecurity analysis as an undergraduate 
 - **[WANGLEVY9.github.io](https://github.com/WANGLEVY9/WANGLEVY9.github.io)** — Research, engineering projects, and the interactive observatory.
 
 <details>
-<summary><strong>Tools and coursework</strong></summary>
-
-I work with Python, TypeScript, Java, Playwright, LangGraph, Docker, and FFmpeg.
+<summary><strong>More coursework</strong></summary>
 
 [CampusShareSystem](https://github.com/WANGLEVY9/CampusShareSystem) · [OrderManageSystem](https://github.com/WANGLEVY9/OrderManageSystem)
 
