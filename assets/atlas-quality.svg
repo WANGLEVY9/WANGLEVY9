@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 222" width="416" height="222" role="img" aria-label="Software quality">
+    <defs>
+      <linearGradient id="base" x2="1" y2="1"><stop stop-color="#131e30"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+      <radialGradient id="mist"><stop stop-color="#90e8bf" stop-opacity=".32"/><stop offset="1" stop-color="#90e8bf" stop-opacity="0"/></radialGradient>
+      <linearGradient id="beam"><stop stop-color="#90e8bf" stop-opacity=".04"/><stop offset="1" stop-color="#90e8bf" stop-opacity=".59"/></linearGradient>
+      <linearGradient id="shade"><stop offset=".14" stop-color="#101829"/><stop offset="1" stop-color="#101829" stop-opacity="0"/></linearGradient>
+      <pattern id="surface" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#90e8bf" stroke-opacity=".085"/></pattern>
+      <clipPath id="clip"><rect x="1" y="1" width="414" height="220" rx="17"/></clipPath>
+    </defs>
+    <style>
+    .trace {stroke-dasharray:100;animation:trace 2.4s .2s both}
+    .radar {transform-origin:0 0;animation:sweep 3.65s ease-out both}
+    .panel {animation:lift 2.2s ease-out both}
+    .flash {animation:flash 2.6s ease-out both}
+    @keyframes trace {from {stroke-dashoffset:100} to {stroke-dashoffset:0}}
+    @keyframes sweep {from {transform:rotate(-120deg)} to {transform:rotate(21deg)}}
+    @keyframes lift {0%,100% {transform:translateY(0)} 42% {transform:translateY(-7px)}}
+    @keyframes flash {0%,100% {opacity:1} 38% {opacity:.28} 63% {opacity:1}}
+    @media (prefers-reduced-motion:reduce) {.trace,.radar,.panel,.flash {animation:none}}
+    </style>
+    <g clip-path="url(#clip)">
+      <rect width="416" height="222" fill="url(#base)"/><rect width="416" height="222" fill="url(#surface)"/>
+      <g fill="#90e8bf"><circle cx="355" cy="19" r="0.35" opacity="0.40"/><circle cx="210" cy="96" r="0.7" opacity="0.44"/><circle cx="313" cy="74" r="0.35" opacity="0.27"/><circle cx="176" cy="76" r="0.35" opacity="0.54"/><circle cx="168" cy="13" r="0.55" opacity="0.60"/><circle cx="112" cy="37" r="1.1" opacity="0.34"/><circle cx="384" cy="26" r="0.35" opacity="0.35"/><circle cx="59" cy="156" r="1.1" opacity="0.53"/><circle cx="211" cy="120" r="0.7" opacity="0.43"/><circle cx="266" cy="48" r="1.1" opacity="0.25"/><circle cx="288" cy="155" r="0.35" opacity="0.55"/><circle cx="208" cy="57" r="0.55" opacity="0.20"/><circle cx="261" cy="34" r="1.1" opacity="0.13"/><circle cx="241" cy="130" r="0.35" opacity="0.41"/><circle cx="265" cy="134" r="0.7" opacity="0.36"/><circle cx="286" cy="54" r="0.35" opacity="0.26"/><circle cx="22" cy="127" r="1.1" opacity="0.37"/><circle cx="355" cy="188" r="0.7" opacity="0.63"/><circle cx="252" cy="80" r="1.1" opacity="0.34"/><circle cx="385" cy="51" r="1.1" opacity="0.36"/><circle cx="166" cy="181" r="0.35" opacity="0.17"/><circle cx="168" cy="183" r="1.1" opacity="0.18"/><circle cx="43" cy="127" r="1.1" opacity="0.48"/><circle cx="17" cy="52" r="1.1" opacity="0.47"/><circle cx="47" cy="29" r="0.55" opacity="0.22"/><circle cx="155" cy="127" r="0.35" opacity="0.24"/><circle cx="249" cy="183" r="0.35" opacity="0.36"/><circle cx="333" cy="47" r="0.35" opacity="0.60"/><circle cx="326" cy="175" r="0.7" opacity="0.63"/><circle cx="29" cy="153" r="0.7" opacity="0.64"/><circle cx="116" cy="75" r="0.7" opacity="0.16"/><circle cx="405" cy="79" r="0.55" opacity="0.16"/><circle cx="159" cy="142" r="1.1" opacity="0.53"/><circle cx="78" cy="90" r="0.7" opacity="0.43"/><circle cx="375" cy="193" r="0.7" opacity="0.47"/><circle cx="357" cy="143" r="0.7" opacity="0.47"/><circle cx="300" cy="117" r="1.1" opacity="0.63"/><circle cx="123" cy="47" r="0.35" opacity="0.37"/><circle cx="68" cy="139" r="0.35" opacity="0.27"/><circle cx="248" cy="186" r="1.1" opacity="0.49"/><circle cx="177" cy="102" r="0.55" opacity="0.37"/><circle cx="178" cy="192" r="0.35" opacity="0.47"/><circle cx="346" cy="143" r="1.1" opacity="0.35"/><circle cx="29" cy="100" r="0.35" opacity="0.30"/><circle cx="196" cy="125" r="0.7" opacity="0.15"/><circle cx="143" cy="78" r="0.35" opacity="0.65"/><circle cx="209" cy="16" r="0.55" opacity="0.22"/><circle cx="348" cy="191" r="0.35" opacity="0.51"/><circle cx="272" cy="31" r="0.35" opacity="0.44"/><circle cx="32" cy="191" r="0.55" opacity="0.45"/><circle cx="134" cy="146" r="0.35" opacity="0.28"/><circle cx="84" cy="71" r="0.7" opacity="0.19"/><circle cx="236" cy="40" r="0.35" opacity="0.50"/><circle cx="168" cy="148" r="1.1" opacity="0.44"/><circle cx="190" cy="197" r="0.35" opacity="0.49"/><circle cx="141" cy="43" r="0.7" opacity="0.37"/><circle cx="295" cy="64" r="1.1" opacity="0.60"/><circle cx="39" cy="157" r="1.1" opacity="0.20"/><circle cx="106" cy="165" r="0.35" opacity="0.39"/><circle cx="206" cy="141" r="0.7" opacity="0.39"/></g>
+      <g transform="translate(216 24)">
+    <ellipse cx="82" cy="66" rx="130" ry="95" fill="url(#mist)"/>
+    <g transform="translate(1 17) rotate(-13 99 47)">
+      <rect x="24" y="8" width="156" height="92" rx="8" fill="#142d2e" stroke="#90e8bf" opacity=".35"/>
+      <g class="panel"><rect x="14" y="17" width="156" height="92" rx="8" fill="#163036" stroke="#90e8bf"/>
+      <path d="M28 36h58m-58 7h35m-35 53h127" stroke="#90e8bf" opacity=".34"/>
+      <path d="M29 81h19V67h17v14h19V57h18v24h18V44h18v37h18" fill="none" stroke="#90e8bf" stroke-width="2.3" pathLength="100" class="trace"/>
+      <circle cx="119" cy="44" r="3.5" fill="#90e8bf" class="flash"/></g>
+    </g></g>
+      <path d="M0 0H244V222H0Z" fill="url(#shade)"/>
+      <path d="M20 33V20h15m352 0h10v13M20 182v13h15m350 0h12v-13" fill="none" stroke="#90e8bf" opacity=".53"/>
+      <text x="28" y="55" fill="#90e8bf" font-family="monospace" font-size="11" letter-spacing="1.5">COURSEWORK · 2026NJU-SQM</text>
+      <text x="27" y="105" fill="#f8f1ff" font-family="Georgia,serif" font-size="34" letter-spacing="-.7">Software quality</text>
+      <path d="M28 163h288" stroke="#90e8bf" opacity=".24"/>
+      <text x="28" y="188" fill="#bec9de" font-family="sans-serif" font-size="13">Practice and review for software quality</text>
+      <circle cx="369" cy="182" r="14" fill="#90e8bf" opacity=".11"/>
+      <path d="M364 187l10-10m-8 0h8v8" stroke="#90e8bf" stroke-width="1.4" fill="none"/>
+    </g>
+    <rect x="1" y="1" width="414" height="220" rx="17" fill="none" stroke="#90e8bf" stroke-opacity=".4"/>
+    </svg>
